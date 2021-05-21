@@ -16,6 +16,7 @@
         
         table {
             margin: auto;
+            border-style: dashed;
         }
         
         #tableCaption {
@@ -43,10 +44,50 @@
             color: purple;
             text-align: center
         }
+        
+        th {
+            font-weight: bolder;
+            font-size: 18px;
+            color: purple;
+            text-align: center;
+            border-style: dashed;
+            empty-cells: hide;
+        }
+        
+        .t1 {
+            font-weight: bolder;
+            font-size: 18px;
+            color: purple;
+            text-align: center;
+            border-style: dashed;
+            empty-cells: hide;
+        }
     </style>
-    <h1>MIS快餐點餐價格表</h1>
+
     <table border="1">
         <script>
+            var a = 8,
+                b = 11,
+                c = 14,
+                d = 17,
+                e = 20,
+                f = 3,
+                g = 4,
+                h = 5,
+                i = 6,
+                j = 7;
+            document.write('<h1>' + "MIS快餐點餐價格表" + '</h1>');
+            document.write('<th>' + "" + '</th>');
+            document.write('<th>' + "5號餐" + '</br>' + a + "元" + '</th>');
+            document.write('<th>' + "4號餐" + '</br>' + b + "元" + '</th>');
+            document.write('<th>' + "3號餐" + '</br>' + c + "元" + '</th>');
+            document.write('<th>' + "2號餐" + '</br>' + d + "元" + '</th>');
+            document.write('<th>' + "1號餐" + '</br>' + e + "元" + '</th>');
+            document.write('<tr>' + '<td class="t1">' + f + '</td>' + '<td>' + f + "*" + a + "=" + a * f + '</td>' + '<td>' + f + "*" + b + "=" + b * f + '</td>' + '<td>' + f + "*" + c + "=" + c * f + '</td>' + '<td>' + f + "*" + d + "=" + d * f + '</td>' + '<td>' + f + "*" + e + "=" + e * f + '</td>' + '</tr>');
+            document.write('<tr>' + '<td class="t1">' + g + '</td>' + '<td>' + g + "*" + a + "=" + a * g + '</td>' + '<td>' + g + "*" + b + "=" + b * g + '</td>' + '<td>' + g + "*" + c + "=" + c * g + '</td>' + '<td>' + g + "*" + d + "=" + d * g + '</td>' + '<td>' + g + "*" + e + "=" + e * g + '</td>' + '</tr>');
+            document.write('<tr>' + '<td class="t1">' + h + '</td>' + '<td>' + h + "*" + a + "=" + a * h + '</td>' + '<td>' + h + "*" + b + "=" + b * h + '</td>' + '<td>' + h + "*" + c + "=" + c * h + '</td>' + '<td>' + h + "*" + d + "=" + d * h + '</td>' + '<td>' + h + "*" + e + "=" + e * h + '</td>' + '</tr>');
+            document.write('<tr>' + '<td class="t1">' + i + '</td>' + '<td>' + i + "*" + a + "=" + a * i + '</td>' + '<td>' + i + "*" + b + "=" + b * i + '</td>' + '<td>' + i + "*" + c + "=" + c * i + '</td>' + '<td>' + i + "*" + d + "=" + d * i + '</td>' + '<td>' + i + "*" + e + "=" + e * i + '</td>' + '</tr>');
+            document.write('<tr>' + '<td class="t1">' + j + '</td>' + '<td>' + j + "*" + a + "=" + a * j + '</td>' + '<td>' + j + "*" + b + "=" + b * j + '</td>' + '<td>' + j + "*" + c + "=" + c * j + '</td>' + '<td>' + j + "*" + d + "=" + d * j + '</td>' + '<td>' + j + "*" + e + "=" + e * j + '</td>' + '</tr>');
         </script>
     </table>
 </head>
