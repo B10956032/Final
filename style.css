@@ -58,6 +58,14 @@ img {
     margin: 15px;
 }
 
+.mar {
+    margin: 0px 100px 0px 100px;
+}
+
+.mar2 {
+    margin: -50px 100px 400px 100px;
+}
+
 @media only screen and (max-width:768px) {
     .intro {
         background-color: antiquewhite;
@@ -70,10 +78,16 @@ img {
     }
     .second2 {
         background-color: antiquewhite;
-        padding: 30px 0px 1px;
+        padding: 10px 0px 1px 0px;
     }
     img {
         width: 100%;
         height: 100%;
+    }
+    .mar {
+        margin: 0px 50px 0px 50px;
+    }
+    .mar2 {
+        margin: -50px 50px 400px 50px;
     }
 }
