@@ -1,99 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>科科快餐點餐價格表</title>
-    <!--答案1-->
-    <style>
-        h1 {
-            font-size: 36px;
-            font-weight: bolder;
-            color: blue;
-            text-align: center;
-        }
-        
-        table {
-            margin: auto;
-            border-style: dashed;
-        }
-        
-        #tableCaption {
-            border-style: dashed;
-            border-width: 1px;
-        }
-        
-        td {
-            border-style: dotted;
-            border-width: 1px;
-            padding: 10px;
-            color: green;
-        }
-        /* //答案 2D*/
-        
-        .content {
-            color: green;
-            font-family: Arial;
-            font-size: 18px;
-        }
-        
-        #tableTitle {
-            font-weight: bolder;
-            font-size: 18px;
-            color: purple;
-            text-align: center
-        }
-        
-        th {
-            font-weight: bolder;
-            font-size: 18px;
-            color: purple;
-            text-align: center;
-            border-style: dashed;
-            empty-cells: hide;
-        }
-        
-        .t1 {
-            font-weight: bolder;
-            font-size: 18px;
-            color: purple;
-            text-align: center;
-            border-style: dashed;
-            empty-cells: hide;
-        }
-    </style>
-
-    <table border="1">
-        <script>
-            var a = 8,
-                b = 11,
-                c = 14,
-                d = 17,
-                e = 20,
-                f = 3,
-                g = 4,
-                h = 5,
-                i = 6,
-                j = 7;
-            document.write('<h1>' + "MIS快餐點餐價格表" + '</h1>');
-            document.write('<th>' + "" + '</th>');
-            document.write('<th>' + "5號餐" + '</br>' + a + "元" + '</th>');
-            document.write('<th>' + "4號餐" + '</br>' + b + "元" + '</th>');
-            document.write('<th>' + "3號餐" + '</br>' + c + "元" + '</th>');
-            document.write('<th>' + "2號餐" + '</br>' + d + "元" + '</th>');
-            document.write('<th>' + "1號餐" + '</br>' + e + "元" + '</th>');
-            document.write('<tr>' + '<td class="t1">' + f + '</td>' + '<td>' + f + "*" + a + "=" + a * f + '</td>' + '<td>' + f + "*" + b + "=" + b * f + '</td>' + '<td>' + f + "*" + c + "=" + c * f + '</td>' + '<td>' + f + "*" + d + "=" + d * f + '</td>' + '<td>' + f + "*" + e + "=" + e * f + '</td>' + '</tr>');
-            document.write('<tr>' + '<td class="t1">' + g + '</td>' + '<td>' + g + "*" + a + "=" + a * g + '</td>' + '<td>' + g + "*" + b + "=" + b * g + '</td>' + '<td>' + g + "*" + c + "=" + c * g + '</td>' + '<td>' + g + "*" + d + "=" + d * g + '</td>' + '<td>' + g + "*" + e + "=" + e * g + '</td>' + '</tr>');
-            document.write('<tr>' + '<td class="t1">' + h + '</td>' + '<td>' + h + "*" + a + "=" + a * h + '</td>' + '<td>' + h + "*" + b + "=" + b * h + '</td>' + '<td>' + h + "*" + c + "=" + c * h + '</td>' + '<td>' + h + "*" + d + "=" + d * h + '</td>' + '<td>' + h + "*" + e + "=" + e * h + '</td>' + '</tr>');
-            document.write('<tr>' + '<td class="t1">' + i + '</td>' + '<td>' + i + "*" + a + "=" + a * i + '</td>' + '<td>' + i + "*" + b + "=" + b * i + '</td>' + '<td>' + i + "*" + c + "=" + c * i + '</td>' + '<td>' + i + "*" + d + "=" + d * i + '</td>' + '<td>' + i + "*" + e + "=" + e * i + '</td>' + '</tr>');
-            document.write('<tr>' + '<td class="t1">' + j + '</td>' + '<td>' + j + "*" + a + "=" + a * j + '</td>' + '<td>' + j + "*" + b + "=" + b * j + '</td>' + '<td>' + j + "*" + c + "=" + c * j + '</td>' + '<td>' + j + "*" + d + "=" + d * j + '</td>' + '<td>' + j + "*" + e + "=" + e * j + '</td>' + '</tr>');
-        </script>
-    </table>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>歡迎來到我的網站</title>
 </head>
 
 <body>
+    <header>
+        <div class='container'>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <i class="fab fa-accessible-icon"></i>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">首頁</a>
+                        </li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="myslef.html">關於我</a>
+                        </li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="view.html">曾到過的<br>旅遊景點</a>
+                        </li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">上比早午餐</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+    <section class="marq">
+        <marquee scrollamount="10" behavior="alternate">你目前正在"首頁"喔~~</marquee>
+    </section>
+
+    <section class="intro">
+        <span class="text2">首頁</span>
+        <hr><span class="text1">&nbsp;</span>
+    </section>
+
+    <section class="second">
+        <div style="margin: 0px 100px 0px 100px;">
+            <span class="text1">歡迎來到我的網站，這是我第一次自己做的個人RWD網頁，通過這次練習讓我更加了解了RWD網頁，也了解到了要去符合各種螢幕大小都去要去個別調整，也是有些麻煩的，這也讓我認為那些製作網頁的人相當厲害。</span>
+        </div>
+    </section>
+
 
 </body>
+<footer>製作者：張育瑋
+    <br>完成日期：6月?日
+</footer>
 
 </html>
